@@ -1,0 +1,19 @@
+[workspace]
+members = [
+    "crates/pi-ai",
+    "crates/pi-agent-core",
+    "crates/pi-tui",
+    "crates/pi-coding-agent",
+    "crates/pi-web-ui",
+    "crates/pi-mom",
+    "crates/pi-pods",
+]
+
+[workspace.package]
+name = "pi-mono-rust"
+version = "0.1.0"
+edition = "2021"
+description = "AI Agent Toolkit - Rust Implementation"
+homepage = "https://github.com/lannerk/pi-mono-rust"
+repository = "https://github.com/lannerk/pi-mono-rust"
+license = "MIT"

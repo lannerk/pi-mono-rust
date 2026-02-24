@@ -1,0 +1,19 @@
+[package]
+name = "pi-web-ui"
+version = "0.1.0"
+edition = "2021"
+description = "Web UI for pi-mono-rust"
+homepage = "https://github.com/lannerk/pi-mono-rust"
+repository = "https://github.com/lannerk/pi-mono-rust"
+license = "MIT"
+
+[dependencies]
+axum = { version = "0.7", features = ["ws", "macros", "json"] }
+futures = "0.3"
+pi-agent-core = { path = "../pi-agent-core" }
+reqwest = "0.12"
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1.0", features = ["full"] }
+tower-http = "0.6"
+tracing = "0.1"
+uuid = { version = "1.0", features = ["v4"] }
